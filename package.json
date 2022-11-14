@@ -1,5 +1,5 @@
 {
-  "name": "react-native-module",
+  "name": "@voerka/react-native-module",
   "version": "0.1.0",
   "description": "独立的 rn 组件, hook 库",
   "main": "lib/commonjs/index",
@@ -80,8 +80,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn typescript"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "commitlint": {
